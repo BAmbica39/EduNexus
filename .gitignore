@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+build/
+dist/
+target/
+**/target/
+
+# Java IDE and workspace files
+.metadata/
+**/.metadata/
+.settings/
+**/.settings/
+.classpath
+.project
+.factorypath
+.sts4-cache/
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+**/application-local.properties
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Java generated files
+*.class
+
+# Local configuration
+*.local
